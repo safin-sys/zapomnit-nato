@@ -1,0 +1,25 @@
+.hero {
+	margin-top: 48px;
+	margin-inline: auto;
+	width: 85%;
+	h1 {
+		font-size: 36px;
+	}
+	button {
+		position: absolute;
+		margin-top: 24px;
+		width: 100vw;
+		left: 0;
+		border: none;
+		color: var(--bg);
+		background-color: var(--txt);
+		height: 48px;
+		font-size: 16px;
+		font-weight: 900;
+		font-family: Lato, sans-serif;
+		cursor: pointer;
+	}
+	button:active {
+		outline: none;
+	}
+}
