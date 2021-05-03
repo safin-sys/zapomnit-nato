@@ -18,7 +18,7 @@ export const Navbar = () => {
         }, 1000)
     }
     return (
-        <nav className={style.navbar}>
+        <nav className={`${style.navbar} container`}>
             <h1>Zapomnit' NATO</h1>
             <label className="switch">
                 <input type="checkbox" ref={input} onClick={handleClick} />

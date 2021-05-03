@@ -17,30 +17,28 @@ export const getStaticProps = async () => {
 export default function Home({ nato }) {
     return (
         <>
-            <div className="container">
-                <Head>
-                    <title>Zapomnit' NATO</title>
-                    <link rel="icon" href="/favicon.ico" />
-                </Head>
-                <Navbar />
-                <Hero />
-            </div>
+            <Head>
+                <title>Zapomnit' NATO</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Navbar />
+            <Hero />
             <div className="marq">
-            <Marquee gradient={false} speed={50}>
-                {nato.map((alph, i) => {
-                    return <span key={i}>{alph}</span>
-                })}
-            </Marquee>
-            <Marquee gradient={false} direction="right" speed={50}>
-                {nato.map((alph, i) => {
-                    return <span key={i}>{alph}</span>
-                })}
-            </Marquee>
-            <Marquee gradient={false} speed={50}>
-                {nato.map((alph, i) => {
-                    return <span key={i}>{alph}</span>
-                })}
-            </Marquee>
+                <Marquee gradient={false} speed={50}>
+                    {nato.map((alph, i) => {
+                        return <span key={i}>{alph}</span>
+                    })}
+                </Marquee>
+                <Marquee gradient={false} direction="right" speed={50}>
+                    {nato.map((alph, i) => {
+                        return <span key={i}>{alph}</span>
+                    })}
+                </Marquee>
+                <Marquee gradient={false} speed={50}>
+                    {nato.map((alph, i) => {
+                        return <span key={i}>{alph}</span>
+                    })}
+                </Marquee>
             </div>
         </>
     )
