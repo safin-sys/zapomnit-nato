@@ -4,8 +4,9 @@ import { Navbar } from '../components/Navbar'
 import Marquee from 'react-fast-marquee'
 
 export const getStaticProps = async () => {
-    const res = await fetch('http://localhost:3000/api/nato')
-    const data = await res.json()
+    // const res = await fetch('http://localhost:3000/api/nato')
+    // const data = await res.json()
+    const data = ['Alpha', 'Bravo', 'Charlie', 'Delta', 'Echo', 'Foxtrot', 'Golf', 'Hotel', 'India', 'Juliett', 'Kilo', 'Lima', 'Mike', 'November', 'Oscar', 'Papa', 'Quebec', 'Romeo', 'Sierra', 'Tango', 'Uniform', 'Victor', 'Whisky', 'X-ray', 'Yankee', 'Zulu']
 
     return {
         props: {
