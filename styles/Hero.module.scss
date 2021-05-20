@@ -10,7 +10,7 @@
 	}
 	button {
 		margin-top: 24px;
-		width: 100vw;
+		width: 100%;
 		border: none;
 		background-color: var(--txt);
 		height: 48px;
@@ -29,3 +29,58 @@
 		outline: none;
 	}
 }
+
+.marq {
+	padding: 24px 0;
+	display: flex;
+	flex-direction: column;
+	span {
+		font-size: 24px;
+		font-weight: 900;
+		text-transform: uppercase;
+		margin-inline: 4px;
+		color: var(--sec);
+	}
+}
+
+.means {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: right;
+	h2, p {
+		margin: 0;
+	}
+	.list {
+		div:nth-child(1) {
+			margin-top: 3rem;
+		}
+		div {
+			margin: 1rem 0;
+			width: 270px;
+			display: flex;
+			justify-content: space-between;
+			h2, button {
+				font-style: italic;
+				text-transform: uppercase;
+			}
+			button {
+				background: none;
+				border: none;
+				font-size: 1.5rem;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

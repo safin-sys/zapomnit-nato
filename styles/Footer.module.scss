@@ -1,0 +1,11 @@
+.footer {
+    display: grid;
+    place-content: center;
+    height: 48px;
+    a {
+        font-size: 1rem;
+        font-weight: bold;
+        font-style: italic;
+        color: #BBB2E9;
+    }
+}

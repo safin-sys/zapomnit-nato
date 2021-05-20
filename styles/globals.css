@@ -5,6 +5,14 @@
 	font-family: Lato, sans-serif;
 }
 
+body::-webkit-scrollbar{
+    width: 6px;
+    background-color: white;
+}
+body::-webkit-scrollbar-thumb{
+    background: #444;
+}
+
 html,
 body {
 	padding: 0;
@@ -54,18 +62,4 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
-
-.marq {
-	padding: 24px 0;
-	display: flex;
-	flex-direction: column;
-}
-
-.marq span {
-	font-size: 24px;
-	font-weight: 900;
-	text-transform: uppercase;
-	margin-inline: 4px;
-	color: var(--sec);
 }
