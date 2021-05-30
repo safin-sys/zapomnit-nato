@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import style from '../styles/Navbar.module.scss'
+import Link from "next/link"
 
 export const Navbar = () => {
     const input = useRef();
@@ -19,7 +20,7 @@ export const Navbar = () => {
     }
     return (
         <nav className={`${style.navbar} container`}>
-            <h1>Zapomnit' NATO</h1>
+            <Link href="/">Zapomnit' NATO</Link>
             <label className="switch">
                 <input type="checkbox" ref={input} onClick={handleClick} />
                 <span className="slider round"></span>

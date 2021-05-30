@@ -1,0 +1,58 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1, p {
+        margin: 0;
+    }
+    .score {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3rem;
+        h1 {
+            font-size: 4rem;
+        }
+        p {
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+    }
+    hr {
+        border: 1px solid var(--txt);
+        width: 100%;
+    }
+    .mcq {
+        width: clamp(15rem, 60%, 30rem);
+        margin: 1.5rem 0;
+        .options {
+            position: relative;
+            h2 {
+                border: 2px solid var(--txt);
+                padding: .5rem 1.5rem;
+                cursor: pointer;
+            }
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 0;
+                background-color: var(--txt);
+                border: none;
+                color: var(--bg);
+                font-size: 1.25rem;
+                padding: .3rem 1rem;
+                cursor: pointer;
+                svg {
+                    background-color: var(--txt);
+                    fill: var(--bg);
+                    margin-left: 4px;
+                    width: 18px;
+                    height: 18px;
+                    margin-top: 4px;
+                }
+            }
+        }
+    }
+}
