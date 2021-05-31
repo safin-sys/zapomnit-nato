@@ -1,39 +1,7 @@
 import { useRef, useState } from "react"
 import style from "../styles/Quiz.module.scss"
 
-export const Quiz = () => {
-    const mcqs = [
-        {
-            que: "A for _.",
-            ans: "Alpha",
-            options: [
-                "Aqua",
-                "Alpha",
-                "America",
-                "Anal"
-            ]
-        },
-        {
-            que: "B for _.",
-            ans: "Bravo",
-            options: [
-                "Bitch",
-                "Balls",
-                "Bravo",
-                "Blowjob"
-            ]
-        },
-        {
-            que: "C for _.",
-            ans: "Charlie",
-            options: [
-                "Cunt",
-                "Charlie",
-                "Cock",
-                "Cat"
-            ]
-        }
-    ]
+export const Quiz = ({ mcqs }) => {
     const [score, setScore] = useState(0)
     const [questionNumber, setQuestionNumber] = useState(0)
     return (
@@ -74,7 +42,7 @@ const Question = ({ mcqs, setScore, setQuestionNumber }) => {
     return (
         <>
             <div className={style.que}>
-                <h1>{mcq.que}</h1>
+                <h1>{mcq.ans[0]} for _.</h1>
                 <p>Fill in the gap</p>
             </div>
             <div className={style.options}>

@@ -1,0 +1,236 @@
+[
+    {
+        "ans": "Alpha",
+        "options": [
+            "Aqua",
+            "Alpha",
+            "America",
+            "Aloha"
+        ]
+    },
+    {
+        "ans": "Bravo",
+        "options": [
+            "Billiard",
+            "Bleach",
+            "Bravo",
+            "Balance"
+        ]
+    },
+    {
+        "ans": "Charlie",
+        "options": [
+            "Cobalt",
+            "Commit",
+            "Cabin",
+            "Charlie"
+        ]
+    },
+    {
+        "ans": "Delta",
+        "options": [
+            "Dapper",
+            "Delta",
+            "Domain",
+            "Distance"
+        ]
+    },
+    {
+        "ans": "Echo",
+        "options": [
+            "Echo",
+            "Earth",
+            "Eagle",
+            "Ecosystem"
+        ]
+    },
+    {
+        "ans": "Foxtrot",
+        "options": [
+            "Faint",
+            "Foxtrot",
+            "Fountain",
+            "Famine"
+        ]
+    },
+    {
+        "ans": "Golf",
+        "options": [
+            "Golf",
+            "Garbage",
+            "Gone",
+            "Gotcha Hat"
+        ]
+    },
+    {
+        "ans": "Hotel",
+        "options": [
+            "Haunted",
+            "Humid",
+            "Hotel",
+            "Hocky"
+        ]
+    },
+    {
+        "ans": "India",
+        "options": [
+            "Ireland",
+            "India",
+            "Indiana",
+            "Italy"
+        ]
+    },
+    {
+        "ans": "Juliett",
+        "options": [
+            "Jackson",
+            "Johnathan",
+            "Joaquin Phoenix",
+            "Juliett"
+        ]
+    },
+    {
+        "ans": "Kilo",
+        "options": [
+            "Kite",
+            "Kind",
+            "Kilo",
+            "Kilowatt"
+        ]
+    },
+    {
+        "ans": "Lima",
+        "options": [
+            "Lima",
+            "Ladder",
+            "Leonardo da Vinci",
+            "Liechtenstein"
+        ]
+    },
+    {
+        "ans": "Mike",
+        "options": [
+            "Michael",
+            "Morty",
+            "Monty Python",
+            "Mike"
+        ]
+    },
+    {
+        "ans": "November",
+        "options": [
+            "Narcos",
+            "November",
+            "Nachos",
+            "Negasonic Teenage Warhead"
+        ]
+    },
+    {
+        "ans": "Oscar",
+        "options": [
+            "Oscar",
+            "October",
+            "Octagon",
+            "Octal"
+        ]
+    },
+    {
+        "ans": "Papa",
+        "options": [
+            "Pineapple",
+            "Pen-Pineapple",
+            "Pen-Pineapple-Apple-Pen",
+            "Papa"
+        ]
+    },
+    {
+        "ans": "Quebec",
+        "options": [
+            "Quebec",
+            "Qatar",
+            "Queens",
+            "Queenstown"
+        ]
+    },
+    {
+        "ans": "Romeo",
+        "options": [
+            "Red",
+            "Reed",
+            "Romeo",
+            "Read"
+        ]
+    },
+    {
+        "ans": "Sierra",
+        "options": [
+            "Soft",
+            "Saskatchewan",
+            "Some",
+            "Sierra"
+        ]
+    },
+    {
+        "ans": "Tango",
+        "options": [
+            "Tango",
+            "Tempo",
+            "Tilt",
+            "Trunk"
+        ]
+    },
+    {
+        "ans": "Uniform",
+        "options": [
+            "Ultraviolet",
+            "Unifrom",
+            "Ultron",
+            "Unified"
+        ]
+    },
+    {
+        "ans": "Victor",
+        "options": [
+            "Victory",
+            "Vietnam",
+            "Victor",
+            "Valedictorian"
+        ]
+    },
+    {
+        "ans": "Whisky",
+        "options": [
+            "Wash",
+            "Washroom",
+            "Whisky",
+            "Wakanda Forever"
+        ]
+    },
+    {
+        "ans": "X-ray",
+        "options": [
+            "Xeno",
+            "Xenophobe",
+            "Xenophobia",
+            "X-ray"
+        ]
+    },
+    {
+        "ans": "Yankee",
+        "options": [
+            "Yo",
+            "YOLO",
+            "Yellow",
+            "Yankee"
+        ]
+    },
+    {
+        "ans": "Zulu",
+        "options": [
+            "Zebra",
+            "Zulu",
+            "Zen",
+            "Zone"
+        ]
+    }
+]
